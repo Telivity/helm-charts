@@ -3,7 +3,7 @@ entries:
   centel:
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2021-06-22T20:55:30.306015+02:00"
+    created: "2021-06-28T16:05:15.603015+02:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -11,20 +11,20 @@ entries:
     - alias: postgresql-things
       name: postgresql
       repository: '@bitnami'
-      version: 10.2.3
+      version: 10.5.0
     - alias: postgresql-users
       name: postgresql
       repository: '@bitnami'
-      version: 10.2.3
+      version: 10.5.0
     - alias: postgresql-auth
       name: postgresql
       repository: '@bitnami'
-      version: 10.2.3
+      version: 10.5.0
     - alias: postgresql-bootstrap
       condition: bootstrap.enabled
       name: postgresql
       repository: '@bitnami'
-      version: 10.2.3
+      version: 10.5.0
     - alias: redis-streams
       name: redis
       repository: '@bitnami'
@@ -60,17 +60,17 @@ entries:
       condition: notifier_smtp.enabled
       name: postgresql
       repository: '@bitnami'
-      version: 10.2.3
+      version: 10.5.0
     - alias: jaeger-operator
       name: jaeger-operator
       repository: https://jaegertracing.github.io/helm-charts
-      version: 2.21.4
+      version: 2.22.0
     - alias: ingress-nginx
       name: ingress-nginx
       repository: https://kubernetes.github.io/ingress-nginx
       version: 3.34.0
     description: Centel IoT Platform
-    digest: 791a4766fbe62159e1e56ebefe6aade040451082e8b044f7084b610b9f0db8a5
+    digest: d399ec23753f3025e5b7f2e1b30bca1478a9e0e3637c1a5e0c26fc9a158859a7
     home: https://www.telivity.io
     icon: https://avatars1.githubusercontent.com/u/13207490
     maintainers:
@@ -85,7 +85,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.11.0
-    created: "2021-06-22T20:55:30.288556+02:00"
+    created: "2021-06-28T16:05:15.582222+02:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -160,4 +160,4 @@ entries:
     urls:
     - centel/centel-0.1.6.tgz
     version: 0.1.6
-generated: "2021-06-22T20:55:30.265642+02:00"
+generated: "2021-06-28T16:05:15.556358+02:00"
