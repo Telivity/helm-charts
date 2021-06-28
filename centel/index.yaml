@@ -3,7 +3,7 @@ entries:
   centel:
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2021-06-28T16:30:37.454192+02:00"
+    created: "2021-06-28T16:44:14.703015+02:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -81,11 +81,11 @@ entries:
     - https://hub.docker.com/u/mainflux/
     type: application
     urls:
-    - centel/centel-1.0.0.tgz
+    - centel-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.11.0
-    created: "2021-06-28T16:30:37.433378+02:00"
+    created: "2021-06-28T16:44:14.683259+02:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -158,6 +158,6 @@ entries:
     - https://hub.docker.com/u/mainflux/
     type: application
     urls:
-    - centel/centel-0.1.6.tgz
+    - centel-0.1.6.tgz
     version: 0.1.6
-generated: "2021-06-28T16:30:37.40382+02:00"
+generated: "2021-06-28T16:44:14.660569+02:00"
