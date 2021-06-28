@@ -3,7 +3,7 @@ entries:
   centel:
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2021-06-28T16:05:15.603015+02:00"
+    created: "2021-06-28T16:30:37.454192+02:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -11,20 +11,20 @@ entries:
     - alias: postgresql-things
       name: postgresql
       repository: '@bitnami'
-      version: 10.5.0
+      version: 10.2.3
     - alias: postgresql-users
       name: postgresql
       repository: '@bitnami'
-      version: 10.5.0
+      version: 10.2.3
     - alias: postgresql-auth
       name: postgresql
       repository: '@bitnami'
-      version: 10.5.0
+      version: 10.2.3
     - alias: postgresql-bootstrap
       condition: bootstrap.enabled
       name: postgresql
       repository: '@bitnami'
-      version: 10.5.0
+      version: 10.2.3
     - alias: redis-streams
       name: redis
       repository: '@bitnami'
@@ -60,7 +60,7 @@ entries:
       condition: notifier_smtp.enabled
       name: postgresql
       repository: '@bitnami'
-      version: 10.5.0
+      version: 10.2.3
     - alias: jaeger-operator
       name: jaeger-operator
       repository: https://jaegertracing.github.io/helm-charts
@@ -70,7 +70,7 @@ entries:
       repository: https://kubernetes.github.io/ingress-nginx
       version: 3.34.0
     description: Centel IoT Platform
-    digest: d399ec23753f3025e5b7f2e1b30bca1478a9e0e3637c1a5e0c26fc9a158859a7
+    digest: 498708c880fb6d0e5ad0b72b941e42a929ce54a711b135315426a52545170926
     home: https://www.telivity.io
     icon: https://avatars1.githubusercontent.com/u/13207490
     maintainers:
@@ -85,7 +85,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.11.0
-    created: "2021-06-28T16:05:15.582222+02:00"
+    created: "2021-06-28T16:30:37.433378+02:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -160,4 +160,4 @@ entries:
     urls:
     - centel/centel-0.1.6.tgz
     version: 0.1.6
-generated: "2021-06-28T16:05:15.556358+02:00"
+generated: "2021-06-28T16:30:37.40382+02:00"
