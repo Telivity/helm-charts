@@ -3,7 +3,7 @@ entries:
   centel:
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2021-06-22T18:19:40.208914+02:00"
+    created: "2021-06-28T15:16:43.279952+02:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -11,20 +11,20 @@ entries:
     - alias: postgresql-things
       name: postgresql
       repository: '@bitnami'
-      version: 10.2.3
+      version: 10.5.0
     - alias: postgresql-users
       name: postgresql
       repository: '@bitnami'
-      version: 10.2.3
+      version: 10.5.0
     - alias: postgresql-auth
       name: postgresql
       repository: '@bitnami'
-      version: 10.2.3
+      version: 10.5.0
     - alias: postgresql-bootstrap
       condition: bootstrap.enabled
       name: postgresql
       repository: '@bitnami'
-      version: 10.2.3
+      version: 10.5.0
     - alias: redis-streams
       name: redis
       repository: '@bitnami'
@@ -60,7 +60,7 @@ entries:
       condition: notifier_smtp.enabled
       name: postgresql
       repository: '@bitnami'
-      version: 10.2.3
+      version: 10.5.0
     - alias: jaeger-operator
       name: jaeger-operator
       repository: https://jaegertracing.github.io/helm-charts
@@ -70,7 +70,7 @@ entries:
       repository: https://kubernetes.github.io/ingress-nginx
       version: 3.34.0
     description: Centel IoT Platform
-    digest: 20bc9d3fc70806b1bb7aa2b2088c36fd72bc83a7b5635a07ed3f4eeac8839803
+    digest: e2eb15ae9facb7f02c5feaddcbba60dd6b422f79a7ad8b5d22d251a5f8dbe5af
     home: https://www.telivity.io
     icon: https://avatars1.githubusercontent.com/u/13207490
     maintainers:
@@ -85,7 +85,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.11.0
-    created: "2021-06-22T18:19:40.190361+02:00"
+    created: "2021-06-28T15:16:43.257422+02:00"
     dependencies:
     - name: nats
       repository: '@bitnami'
@@ -160,4 +160,4 @@ entries:
     urls:
     - centel-0.1.6.tgz
     version: 0.1.6
-generated: "2021-06-22T18:19:40.164506+02:00"
+generated: "2021-06-28T15:16:43.232161+02:00"
